@@ -8,9 +8,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-barbara.png">
-<link rel="icon" type="image/png" sizes="192x192" href="favicon-barbara.png">
-
   <style>
     * {
       margin: 0;
@@ -53,36 +50,93 @@
       }
     }
     
-    .logo-container {
+    .left-content {
       max-width: 42rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .logo-container {
       width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 2rem;
     }
     
     .logo-container img {
       width: 100%;
       height: auto;
-      max-width: 380px;
+      max-width: 320px;
     }
     
     @media (min-width: 640px) {
       .logo-container img {
-        max-width: 420px;
+        max-width: 350px;
       }
     }
     
     @media (min-width: 1024px) {
       .logo-container img {
-        max-width: 500px;
+        max-width: 420px;
       }
     }
     
     @media (min-width: 1280px) {
       .logo-container img {
-        max-width: 580px;
+        max-width: 480px;
       }
+    }
+    
+    .tagline {
+      color: #ffffff;
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+    
+    @media (min-width: 1024px) {
+      .tagline {
+        font-size: 1.125rem;
+      }
+    }
+    
+    .tagline strong {
+      font-weight: 700;
+    }
+    
+    .benefits-list {
+      list-style: none;
+      text-align: left;
+      width: 100%;
+      max-width: 400px;
+    }
+    
+    .benefits-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      color: #ffffff;
+      font-size: 0.95rem;
+      margin-bottom: 0.75rem;
+      line-height: 1.4;
+    }
+    
+    @media (min-width: 1024px) {
+      .benefits-list li {
+        font-size: 1rem;
+      }
+    }
+    
+    .check-icon {
+      width: 18px;
+      height: 18px;
+      color: #d9b83b;
+      flex-shrink: 0;
+      margin-top: 2px;
     }
     
     /* Right Section - White with Contact */
@@ -92,7 +146,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 5rem 3rem;
+      padding: 3rem 2rem;
       min-height: auto;
       overflow: hidden;
     }
@@ -259,8 +313,43 @@
   <div class="container">
     <!-- Left Section - Brown with Logo -->
     <div class="left-section">
-      <div class="logo-container">
-        <img src="Logo_Barbara_Hommes_braun_BG_Untertitel_WEB.svg" alt="Barbara Hommes Logo">
+      <div class="left-content">
+        <div class="logo-container">
+          <img src="Logo_Barbara_Hommes_braun_BG_Untertitel_WEB.svg" alt="Barbara Hommes Logo">
+        </div>
+        <p class="tagline">Wenn nichts zu helfen scheint – ich spreche die <strong>Sprache deines Körpers</strong> bei:</p>
+        <ul class="benefits-list">
+          <li>
+            <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            Schmerzen aller Art
+          </li>
+          <li>
+            <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            Krankheiten mit oder ohne Befund
+          </li>
+          <li>
+            <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            Unfall & Verletzungen (wiederkehrend)
+          </li>
+          <li>
+            <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            Ängsten, Trennung, Trauer, Ausweglosigkeit, Depression
+          </li>
+          <li>
+            <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+            Fehlverhalten oder Krankheiten von Haustieren
+          </li>
+        </ul>
       </div>
     </div>
 
