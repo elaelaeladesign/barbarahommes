@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-barbara.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon-barbara.png">
   <style>
     * {
       margin: 0;
@@ -153,9 +155,15 @@
     }
     
     /* Address in Brown Section */
-    .address {
-      margin-bottom: 1rem;
-    }
+   
+      .address {
+  margin-bottom: 1rem;
+  width: fit-content;   /* Block so breit wie Inhalt */
+  margin-left: auto;    /* Block zentriert */
+  margin-right: auto;
+  text-align: left;     /* Text links */
+}
+    
     
     @media (min-width: 1024px) {
       .address {
@@ -163,12 +171,12 @@
       }
     }
     
-    .address-row {
-      display: flex;
-      align-items: flex-start;
-      gap: 0.5rem;
-      justify-content: center;
-    }
+  .address-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  justify-content: flex-start; /* linksbündig */
+}
     
     .address-text {
       color: #ffffff;
@@ -187,11 +195,15 @@
     
     /* Contact Links in Brown Section */
     .contact-links {
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-      align-items: center;
-    }
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start; /* Inhalt links */
+  width: fit-content;      /* Blockbreite am Inhalt */
+  margin-left: auto;       /* Block zentriert */
+  margin-right: auto;
+  text-align: left;
+}
     
     @media (min-width: 1024px) {
       .contact-links {
@@ -206,6 +218,10 @@
       color: #ffffff;
       text-decoration: none;
       transition: color 0.2s ease;
+     
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: flex-start;
     }
     
     .contact-link:hover {
