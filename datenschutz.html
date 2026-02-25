@@ -3,244 +3,227 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Datenschutzerklärung | Melanie Romé</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-gross.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/favicon-gross.png">
+  <title>Datenschutz | Barbara Hommes</title>
+  <meta name="robots" content="noindex">
 
-  <meta name="description" content="Datenschutzerklärung von Melanie Romé gemäß DSGVO (AT)">
-
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-barbara.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-barbara.png">
 
   <style>
-    body {
-      font-family: 'PT Sans Narrow', sans-serif;
-      background-color: #aea18a;
-      color: #ffffff;
+    * {
       margin: 0;
-      padding: 2rem 1.5rem;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    .legal-container {
-      max-width: 720px;
-      margin: 0 auto;
+    body {
+      font-family: 'Josefin Sans', sans-serif;
+      background-color: #8a7b70;
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem 1.5rem;
+    }
+
+    @font-face {
+      font-family: 'Josefin Sans';
+      src: url('fonts/josefin-sans-v34-latin-300.woff2') format('woff2');
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Josefin Sans';
+      src: url('fonts/josefin-sans-v34-latin-regular.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Josefin Sans';
+      src: url('fonts/josefin-sans-v34-latin-500.woff2') format('woff2');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Josefin Sans';
+      src: url('fonts/josefin-sans-v34-latin-600.woff2') format('woff2');
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Josefin Sans';
+      src: url('fonts/josefin-sans-v34-latin-700.woff2') format('woff2');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    .container {
+      max-width: 700px;
+      width: 100%;
     }
 
     h1 {
-      font-size: 1.75rem;
-      margin-bottom: 1.25rem;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      font-weight: 600;
     }
 
     h2 {
       font-size: 1.25rem;
-      margin-top: 2rem;
-      margin-bottom: 0.75rem;
+      margin: 1.5rem 0 0.5rem 0;
+      font-weight: 500;
     }
 
     p {
-      font-size: 1rem;
-      line-height: 1.6;
+      line-height: 1.4;
       margin-bottom: 0.75rem;
+      font-size: 1rem;
+    }
+
+    ul {
+      margin: 0.5rem 0 1rem 1.5rem;
+      line-height: 1.4;
+    }
+
+    .block {
+      margin-bottom: 2rem;
     }
 
     a {
+      color: #d9b83b; /* hellbraun */
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
       color: #ffffff;
-      text-decoration: underline;
     }
 
-     .back {
-      margin-top: 2rem;
-      font-size: 0.9rem;
+    .footer-links {
+      margin-top: 3rem;
+      font-size: 0.75rem;
+      opacity: 0.9;
     }
 
-    @font-face {
-  font-family: 'PT Sans Narrow';
-  src: url('/fonts/PTSansNarrow-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PT Sans Narrow';
-  src: url('/fonts/PTSansNarrow-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-          .site-note {
-  font-size: 0.75rem;
-  opacity: 0.7;
-  text-align: right;
-  margin-top: 2rem;
-}
-
-/* mobil: nicht rechts kleben */
-@media (max-width: 768px) {
-  .site-note {
-    text-align: left;
-    margin-top: 1.5rem;
-  }
-}
-
-           .legal-links {
-  font-size: 0.75rem;
-  opacity: 0.85;
-}
-
-.legal-links a {
-  color: #ffffff;
-  text-decoration: none;
-  margin: 0 4px;
-}
-
-.legal-links a:hover {
-  text-decoration: underline;
-}
-
+    .footer-links span {
+      margin: 0 6px;
+      opacity: 0.6;
+    }
   </style>
 </head>
-
 <body>
-  <div class="legal-container">
 
-   <h1>Datenschutzerklärung</h1>
+  <div class="container">
+    <h1>Datenschutzerklärung</h1>
 
-<h2>Verantwortliche</h2>
-<p>Melanie Romé<br>
-Hochfeldstra&szlig;e 22<br>
-9523 Villach<br>
-Österreich</p>
+    <div class="block">
+      <h2>Verantwortliche</h2>
+      <p>Barbara Maria Hommes</p>
+      <p>Jetzt-Verein für Kultur, Gesundheit und Forschung</p>
+      <p>Zirbengasse 1, 8762 Pölstal</p>
+    </div>
 
-<p><strong>Telefon:</strong><br>
-<a href="tel:+436602681967">+43 660 268 19 67</a></p>
+    <div class="block">
+      <h2>Kontakt</h2>
+      <p>Tel: <a href="tel:+436643502001">0664 / 3502001</a></p>
+      <p>E-Mail: <a href="mailto:jetzt@barbarahommes.at">jetzt@barbarahommes.at</a></p>
+    </div>
 
-<p><strong>E-Mail:</strong><br>
-<a href="mailto:office@melanierome.at">office@melanierome.at</a></p>
+    <div class="block">
+      <h1>Allgemeines zur Datenverarbeitung</h1>
+      <p>Der Schutz Ihrer personenbezogenen Daten ist mir ein besonderes Anliegen. Ich verarbeite Ihre Daten ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, DSG, TKG 2021).</p>
+      <p>Diese Website dient ausschließlich der Bereitstellung von Informationen über mein Angebot. Es werden keine Tracking- oder Analyse-Tools eingesetzt.</p>
+    </div>
 
-<h2>Allgemeines zur Datenverarbeitung</h2>
-<p>
-Der Schutz Ihrer personenbezogenen Daten ist mir ein besonderes Anliegen. 
-Ich verarbeite Ihre Daten ausschließlich auf Grundlage der gesetzlichen Bestimmungen 
-(DSGVO, DSG, TKG 2021).
-</p>
-<p>
-Diese Website dient ausschließlich der Bereitstellung von Informationen über mein Angebot.
-Es werden keine Tracking- oder Analyse-Tools eingesetzt.
-</p>
+    <div class="block">
+      <h2>Hosting und Server-Logfiles</h2>
+      <p>Beim Besuch dieser Website werden durch den Hosting-Provider automatisch Informationen erhoben und gespeichert (Server-Logfiles). Dazu gehören insbesondere:</p>
+      <ul>
+        <li>IP-Adresse</li>
+        <li>Datum und Uhrzeit des Zugriffs</li>
+        <li>aufgerufene Seite</li>
+        <li>Browsertyp und -version</li>
+        <li>Betriebssystem</li>
+      </ul>
+      <p>Diese Daten sind technisch erforderlich, um die Website korrekt auszuliefern sowie zur Gewährleistung der Systemsicherheit und -stabilität.</p>
+      <p>Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der sicheren und stabilen Bereitstellung der Website).</p>
+      <p>Eine personenbezogene Auswertung findet nicht statt.</p>
+      <p>Diese Website wird über GitHub Pages (Dienstanbieter: Microsoft Corporation, USA) gehostet. Im Rahmen des Hostings kann es zur Verarbeitung personenbezogener Daten (z.B. IP-Adresse) kommen. Die Datenverarbeitung erfolgt auf Grundlage berechtigter Interessen gemäß Art. 6 Abs. 1 lit. f DSGVO.</p>
+    </div>
 
-<h2>Hosting und Server-Logfiles</h2>
-<p>
-Beim Besuch dieser Website werden durch den Hosting-Provider automatisch Informationen erhoben und gespeichert 
-(Server-Logfiles). Dazu können insbesondere gehören:
-</p>
-<p>
-– IP-Adresse<br>
-– Datum und Uhrzeit des Zugriffs<br>
-– aufgerufene Seite<br>
-– Browsertyp und -version<br>
-– Betriebssystem
-</p>
-<p>
-Diese Daten sind technisch erforderlich, um die Website korrekt auszuliefern sowie zur Gewährleistung der 
-Systemsicherheit und -stabilität.
-</p>
-<p>
-Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der sicheren und stabilen Bereitstellung der Website).
-</p>
-<p>
-Eine personenbezogene Auswertung findet nicht statt.
-</p>
-    <p>
-Diese Website wird über GitHub Pages (Dienstanbieter: Microsoft Corporation, USA) gehostet.
-Im Rahmen des Hostings kann es zur Verarbeitung personenbezogener Daten (z.B. IP-Adresse) kommen.
-Die Datenverarbeitung erfolgt auf Grundlage berechtigter Interessen gemäß Art. 6 Abs. 1 lit. f DSGVO.
-</p>
+    <div class="block">
+      <h2>Kontaktaufnahme per E-Mail</h2>
+      <p>Wenn Sie per E-Mail Kontakt aufnehmen, werden Ihre angegebenen Daten (z.B. Name, E-Mail-Adresse, Inhalt der Anfrage) zur Bearbeitung Ihrer Anfrage gespeichert und verarbeitet.</p>
+      <p>Die von Ihnen übermittelten Daten werden ausschließlich zur Angebotsstellung und Auftragsdurchführung gemäß DSGVO gespeichert und verarbeitet. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Erfüllung vorvertraglicher Maßnahmen) bzw. lit. f DSGVO (berechtigtes Interesse).</p>
+      <p>Ihre Daten werden nicht ohne Ihre Einwilligung weitergegeben und nur so lange gespeichert, wie dies zur Bearbeitung erforderlich ist.</p>
+    </div>
 
-<h2>Kontaktaufnahme per E-Mail</h2>
-<p>
-Wenn Sie per E-Mail Kontakt aufnehmen, werden Ihre angegebenen Daten (z.B. Name, E-Mail-Adresse, Inhalt der Anfrage) 
-zur Bearbeitung Ihrer Anfrage gespeichert und verarbeitet.
-</p>
-<p>
-Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Vertrag bzw. vorvertragliche Maßnahmen) oder Art. 6 Abs. 1 lit. f DSGVO.
-</p>
-<p>
-Ihre Daten werden nicht ohne Ihre Einwilligung weitergegeben und nur so lange gespeichert, 
-wie dies zur Bearbeitung erforderlich ist.
-</p>
+    <div class="block">
+      <h2>Art der angebotenen Leistungen</h2>
+      <p>Barbara Maria Hommes bietet Leistungen im Bereich Energetik, psychologische Begleitung und ganzheitliche Persönlichkeitsentwicklung an. Die Angebote dienen der Förderung von innerem Gleichgewicht, Selbstwahrnehmung und Lebensqualität. Sie ersetzen keine medizinische, psychologische oder psychotherapeutische Behandlung.</p>
+    </div>
 
-    <h2>Art der angebotenen Leistungen</h2>
-<p>
-Die angebotenen Leistungen erfolgen im Rahmen der Tätigkeit als diplomierte Mentaltrainerin.
-Sie dienen der persönlichen Weiterentwicklung und ersetzen keine medizinische,
-psychologische oder psychotherapeutische Behandlung.
-</p>
+    <div class="block">
+      <h2>Cookies</h2>
+      <p>Diese Website verwendet keine Cookies.</p>
+    </div>
 
-<h2>Cookies</h2>
-<p>
-Diese Website verwendet keine Cookies.
-</p>
+    <div class="block">
+      <h2>Keine Webanalyse / kein Tracking</h2>
+      <p>Auf dieser Website werden keine Analyse- oder Trackingtools (z.B. Google Analytics, Meta Pixel o.ä.) eingesetzt. Es erfolgt keine statistische Auswertung des Nutzerverhaltens.</p>
+    </div>
 
-<h2>Keine Webanalyse / kein Tracking</h2>
-<p>
-Auf dieser Website werden keine Analyse- oder Trackingtools (z.B. Google Analytics, Meta Pixel o.ä.) eingesetzt.
-Es erfolgt keine statistische Auswertung des Nutzerverhaltens.
-</p>
+    <div class="block">
+      <h2>Google Fonts</h2>
+      <p>Die verwendeten Schriftarten sind lokal auf dem Server gespeichert. Es erfolgt keine Verbindung zu Servern von Google.</p>
+    </div>
 
-<h2>Google Fonts</h2>
-<p>
-Die verwendeten Schriftarten sind lokal auf dem Server gespeichert.
-Es erfolgt keine Verbindung zu Servern von Google.
-</p>
+    <div class="block">
+      <h2>Externe Links</h2>
+      <p>Diese Website enthält Links zu externen Plattformen. Beim Anklicken eines solchen Links verlassen Sie diese Website. Für die Datenverarbeitung durch diese Drittanbieter wird keine Verantwortung übernommen. Es gelten die jeweiligen Datenschutzbestimmungen der Anbieter.</p>
+    </div>
 
-<h2>Externe Links</h2>
-<p>
-Diese Website enthält Links zu externen Plattformen (z.B. Social Media).
-Beim Anklicken eines solchen Links verlassen Sie diese Website.
-Für die Datenverarbeitung durch diese Drittanbieter wird keine Verantwortung übernommen.
-Es gelten die jeweiligen Datenschutzbestimmungen der Anbieter.
-</p>
+    <div class="block">
+      <h2>Speicherdauer</h2>
+      <p>Personenbezogene Daten werden nur so lange gespeichert, wie dies für die jeweiligen Zwecke erforderlich ist oder gesetzliche Aufbewahrungsfristen bestehen.</p>
+    </div>
 
-<h2>Speicherdauer</h2>
-<p>
-Personenbezogene Daten werden nur so lange gespeichert, wie dies für die jeweiligen Zwecke erforderlich ist 
-oder gesetzliche Aufbewahrungsfristen bestehen.
-</p>
+    <div class="block">
+      <h2>Ihre Rechte</h2>
+      <p>Ihnen stehen grundsätzlich folgende Rechte zu:</p>
+      <ul>
+        <li>Recht auf Auskunft (Art. 15 DSGVO)</li>
+        <li>Recht auf Berichtigung (Art. 16 DSGVO)</li>
+        <li>Recht auf Löschung (Art. 17 DSGVO)</li>
+        <li>Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
+        <li>Recht auf Datenübertragbarkeit (Art. 20 DSGVO)</li>
+        <li>Recht auf Widerspruch (Art. 21 DSGVO)</li>
+      </ul>
+      <p>Wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt, können Sie sich bei der österreichischen Datenschutzbehörde beschweren:</p>
+      <p>
+        Österreichische Datenschutzbehörde<br>
+        Barichgasse 40–42<br>
+        1030 Wien<br>
+        <a href="https://www.dsb.gv.at" target="_blank" rel="noopener">www.dsb.gv.at</a>
+      </p>
+    </div>
 
-<h2>Ihre Rechte</h2>
-<p>
-Ihnen stehen grundsätzlich folgende Rechte zu:
-</p>
-<p>
-– Recht auf Auskunft (Art. 15 DSGVO)<br>
-– Recht auf Berichtigung (Art. 16 DSGVO)<br>
-– Recht auf Löschung (Art. 17 DSGVO)<br>
-– Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)<br>
-– Recht auf Datenübertragbarkeit (Art. 20 DSGVO)<br>
-– Recht auf Widerspruch (Art. 21 DSGVO)
-</p>
-<p>
-Wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt, 
-können Sie sich bei der österreichischen Datenschutzbehörde beschweren:
-</p>
-<p>
-Österreichische Datenschutzbehörde<br>
-Barichgasse 40–42<br>
-1030 Wien<br>
-<a href="https://dsb.gv.at/" target="_blank">www.dsb.gv.at</a>
-</p>
-    <p class="back">
-  <a href="/">← Zurück zur Startseite</a>
-</p>
-     <p class="site-note">
-    <span class="legal-links">
-    <a href="/impressum.html">Impressum</a>
-    <span class="separator">|</span>
-    <a href="/datenschutz.html">Datenschutz</a>
-  </span>
-</p>
+    <div class="footer-links">
+      <a href="/">Zurück zur Startseite</a>
+      <span>|</span>
+      <a href="impressum.html">Impressum</a>
+      <span>|</span>
+      <a href="datenschutz.html">Datenschutz</a>
+    </div>
 
   </div>
+
 </body>
 </html>
-
