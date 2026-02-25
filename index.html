@@ -361,6 +361,30 @@
         height: 22px;
       }
     }
+  
+  /* Legal Links */
+.legal-links {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  font-size: 0.85rem;
+  z-index: 20;
+}
+
+.legal-links a {
+  color: #b8a79c; /* helleres Braun */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.legal-links a:hover {
+  color: #8a7b70; /* normales Braun */
+}
+
+.legal-links span {
+  margin: 0 6px;
+  color: #b8a79c;
+}
   </style>
 </head>
 <body>
@@ -456,6 +480,11 @@
         </ul>
       </div>
     </div>
+    <div class="legal-links">
+  <a href="impressum.html">Impressum</a>
+  <span>|</span>
+  <a href="datenschutz.html">Datenschutz</a>
+</div>
   </div>
 </body>
 </html>
